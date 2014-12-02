@@ -1,0 +1,72 @@
+/* General */
+
+html {
+	height: 100%;
+	background-color: #FDFDFD;
+	font-family: "EB Garamond";
+	text-align: center;
+	color: #555;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+}
+
+a {
+	color: #555;
+}
+
+/* Menu */
+
+ul.menu {
+	list-style-type: none;
+	padding: 0;
+}
+
+.menu > li {
+	display: inline-block;
+	width: 60px;
+	padding: 7px;
+	border-radius: 5px;
+}
+
+ul.menu > li:hover, ul.menu > li.active {
+	background-color: #DDD;
+}
+
+.menu > li > a {
+	text-decoration: none;
+}
+
+.menu:before {
+	right: 29px;
+	margin-left: -50%;
+}
+
+.menu:after {
+	left: 29px;
+	margin-right: -50%;
+}
+
+.menu:before, .menu:after {
+	background-color: #d0d0d0;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	bottom: .1em;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+
+/* Content */
+
+.title {
+	margin-top: 50px;
+}
+
+.content {
+	clear: both;
+	margin-top: 100px;
+	color: #777;
+}
