@@ -16,6 +16,10 @@ a {
 	color: #555;
 }
 
+a:hover {
+	color: #659CEF;
+}
+
 /* Menu */
 
 ul.menu {
@@ -32,6 +36,10 @@ ul.menu {
 
 ul.menu > li:hover, ul.menu > li.active {
 	background-color: #DDD;
+}
+
+ul.menu a:hover {
+	color: #555;
 }
 
 .menu > li > a {
